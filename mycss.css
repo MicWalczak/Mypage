@@ -48,11 +48,10 @@ body{
     border-radius: 10px;
     box-shadow: 4px 4px 0 0 rgb(217, 223, 190);
     position: absolute;
-    top: 5px;
+    top: 6px;
     left: 48px;
 }
 
 .dark .flicker{
-    left: 45px;
-    transition: 0.3s;
+    left: 47px;
 }
