@@ -159,7 +159,7 @@ footer {
 #main_box {
     display: flex;
     width: 100%;
-    height: 85vh;
+    height: 75vh;
     margin: 50px auto 0 auto;
     justify-content: space-around;
     box-shadow: 2px 2px 15px 1px #000000;
@@ -177,7 +177,7 @@ footer {
     color: antiquewhite;
     
 }
-@media(min-width: 768px) {
+@media(min-width: 1200px) {
 .box:hover {
     width: 50%;
 }
