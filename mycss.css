@@ -31,13 +31,7 @@ tbody {
     text-align: center;
 }
 
-@media(max-width: 768px) {
-    table{
-        margin: auto ;
-        padding: auto;
 
-    } 
-}
 td {
     width: 15rem;
     width: 15rem;
@@ -165,7 +159,7 @@ footer {
 #main_box {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     margin: 50px auto 0 auto;
     justify-content: space-around;
     box-shadow: 2px 2px 15px 1px #000000;
@@ -183,12 +177,11 @@ footer {
     color: antiquewhite;
     
 }
-
-
+@media(min-width: 768px) {
 .box:hover {
     width: 50%;
 }
-
+}
 
 #box_1 {
     background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-macquarie-71208_1920.jpg');
@@ -230,4 +223,38 @@ footer {
 form { 
     width: 80%;
     padding: 20px;
+}
+
+
+
+@media(max-width: 768px) {
+    table{
+        margin: auto ;
+        padding: auto;
+    } 
+    #main_box {
+        width: 100%;
+        height: 90vh;
+        text-align: center;
+        justify-content: space-around;
+        box-shadow: 2px 2px 15px 1px #000000;
+        -webkit-box-shadow: 2px 2px 15px 1px #000000;
+        flex-direction: column;
+        
+        
+    }
+    .box {
+        
+        width: 100%;
+        height: 25%;
+        font-size: 80px;
+        text-align: center;
+        line-height: 150px;
+        transition: 1s;
+        cursor: pointer;
+        color: antiquewhite;
+    }
+    .box:hover{
+        height: 150%;
+    }
 }
