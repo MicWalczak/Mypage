@@ -31,11 +31,10 @@ tbody {
     text-align: center;
 }
 
-@media(max-width: 1028px) {
+@media(max-width: 768px) {
     table{
         margin: auto ;
         padding: auto;
-        background-color: red;
     } 
 }
 td {
