@@ -31,11 +31,13 @@ tbody {
     text-align: center;
 }
 
-/* /* @media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
     table{
         margin: auto ;
+        padding: auto;
+        background-color: red;
     } 
-} */
+}
 td {
     width: 15rem;
     width: 15rem;
