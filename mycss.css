@@ -31,7 +31,7 @@ tbody {
     text-align: center;
 }
 
-@media screen and (max-width: 1200px) {
+@media(max-width: 1028px) {
     table{
         margin: auto ;
         padding: auto;
